@@ -1,7 +1,7 @@
 
-    $col-1: #e63946;
+    // $col-1: #e63946;
     // $col-1: #386641;
-    // $col-1: #2a9d8f;
+    $col-1: #2a9d8f;
     // $col-1: #8338ec;
     // $col-1: #7209b7;
     $col-2: #fdf0d5;
@@ -75,11 +75,11 @@
                 flex-wrap: wrap;
                 justify-content: center;
                 gap: .5rem;
-                .phone, .email, .address, .linkedin, .github {
+                .phone, .email, .address, .linkedin, .github, .project {
                     display: flex;
                     align-items: center;
                     gap: .5rem;
-                    svg {
+                    svg, img {
                         width: 1rem;
                         height: 1rem;
                     }
